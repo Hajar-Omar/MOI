@@ -1,0 +1,95 @@
+/**************** 768 *****************/
+
+@media all and (max-width: 1023px) {
+	/*------ Examples ------*/
+	#examples .wrapper {
+		padding: 30px 15px;
+	}
+	#example-3 {
+		width: 500px;
+		height: 600px;
+		display: inline-block;
+		float: right;
+		margin-top: 40%;
+	}
+	#example-3 [class*="item"] {
+		width: 420px;
+		height: 200px;
+		/* font: 700 80px/200px Roboto; */
+	}
+	/**************** 480 *****************/
+	@media all and (max-width: 767px) {
+		.f_arrow {
+			width: 25px;
+			height: 30px;
+		}
+		.f_arrow[class*="prev"] {
+			left: 3px;
+		}
+		.f_arrow[class*="next"] {
+			right: 3px;
+		}
+		.f_arrow:before, .f_arrow:after {
+			width: 25px;
+			height: 4px;
+		}
+		.f_arrow:before {
+			top: 3px;
+		}
+		.f_arrow:after {
+			bottom: 3px;
+		}
+		#top_carousel {
+			height: 220px;
+		}
+		#top_carousel .item {
+			width: 360px;
+			height: 220px;
+		}
+		#top_carousel .item .title {
+			font: 700 16px/22px Roboto;
+			padding: 15px 10px;
+		}
+	}
+	/**************** 320 *****************/
+	@media all and (max-width: 479px) {
+		#top_carousel {
+			height: 160px;
+		}
+		#top_carousel .item {
+			width: 240px;
+			height: 160px;
+		}
+		#top_carousel .item .title {
+			font: 700 14px/16px Roboto;
+			padding: 10px 5px;
+		}
+	}
+	/**************** 1024 *****************/
+	@media all and (max-width: 1169px) {
+		#top_carousel {
+			height: 450px;
+		}
+		#top_carousel .item {
+			width: 800px;
+			height: 450px;
+		}
+		#top_carousel .item .title {
+			font: 700 20px/26px Roboto;
+			padding: 30px 15px;
+		}
+	}
+	/**************** 768 *****************/
+	@media all and (max-width: 1023px) {
+		#top_carousel {
+			height: 340px;
+		}
+		#top_carousel .item {
+			width: 600px;
+			height: 340px;
+		}
+		#top_carousel .item .title {
+			font: 700 18px/24px Roboto;
+			padding: 20px 10px;
+		}
+	}

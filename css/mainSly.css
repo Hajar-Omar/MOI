@@ -1,0 +1,69 @@
+
+/* Header example */
+.example { padding-top: 20px; }
+
+.example button, .example button { background: transparent; border: 0; color: #fff; opacity: .5; }
+.example button:hover, .example button:hover { opacity: 1; }
+.example button:disabled, .example button:disabled { opacity: .2; }
+
+.example .forward, .example .backward { float: left; width: 100px; height: 200px; font-size: 60px; }
+.example .forward { float: right; }
+
+.example .frame {       margin: 0 0 20px !important;
+    width: 100%; height: auto; line-height: 200px; overflow: hidden; text-shadow: none; }
+.example .frame ul { list-style: none; margin: 0; padding: 0; height: 100%; font-size: 50px; }
+.example .frame ul li img {
+        
+        width: 90%;
+    }
+.example .frame ul li { text-align: center; float: left; cursor: -webkit-grab; border-right: 2px solid #e8e8e8;}
+.example .frame ul li:last-child{border-right:none;}
+.example .frame ul li.active { color: #fff; }
+
+.example .scrollbar { margin: 10px auto 30px; width: 100%;    height: 5px; line-height: 0;     background-color: #fefefe;}
+.example .scrollbar .handle { width: 100px; height: 4px; background: #9c9c9c; cursor: pointer; }
+.example .scrollbar .handle .mousearea { position: absolute; top: -9px; left: 0; width: 100%; height: 20px; }
+
+.example .pages { list-style: none; margin: 20px 0; padding: 0; text-align: center; }
+.example .pages li { display: inline-block; width: 14px; height: 14px; margin: 0 4px; text-indent: -999px; border-radius: 10px; cursor: pointer; overflow: hidden;
+	background: #fff; box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+.example .pages li:hover { background: #aaa; }
+.example .pages li.active { background: #666; }
+
+.example .controls { margin: 50px 0 0; text-align: center; }
+.example .controls .divider { display: inline-block; margin: 0 10px; }
+.example .controls button { line-height: 32px; vertical-align: middle; font-family: Novecento, sans-serif; }
+.example .controls button i { position: relative; top: -2px; margin: 5px; padding: 0; font-size: 32px; vertical-align: middle; }
+
+
+/*//second example*/
+/*.example2 { padding-top: 20px; }
+.slidee li{ display: inline-block;}
+.example2 button, .example2 button { background: transparent; border: 0; color: #fff; opacity: .5; }
+.example2 button:hover, .example2 button:hover { opacity: 1; }
+.example2 button:disabled, .example2 button:disabled { opacity: .2; }
+
+.example2 .forward, .example2 .backward { float: left; width: 100px; height: 200px; font-size: 60px; }
+.example2 .forward { float: right; }
+
+.example2 .frame2 { margin: 0 auto; width: 940px; height: auto; line-height: 200px; overflow: hidden; text-shadow: none; }
+.example2 .frame2 ul { list-style: none; margin: 0; padding: }
+.example2 .frame2 ul li:last-child{border-right:none;}
+.example2 .frame2 ul li.active { color: #fff; }
+
+.example2 .scrollbar2 { margin: 10px auto 30px; width: 940px;    height: 5px; line-height: 0;     background-color: #fefefe;}
+.example2 .scrollbar2 .handle { width: 100px; height: 4px; background: #9c9c9c; cursor: pointer; }
+.example2 .scrollbar2 .handle .mousearea { position: absolute; top: -9px; left: 0; width: 100%; height: 20px; }
+
+.example2 .pages { list-style: none; margin: 20px 0; padding: 0; text-align: center; }
+.example2 .pages li { display: inline-block; width: 14px; height: 14px; margin: 0 4px; text-indent: -999px; border-radius: 10px; cursor: pointer; overflow: hidden;
+	background: #fff; box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+.example2 .pages li:hover { background: #aaa; }
+.example2 .pages li.active { background: #666; }
+
+.example2 .controls { margin: 50px 0 0; text-align: center; }
+.example2 .controls .divider { display: inline-block; margin: 0 10px; }
+.example2 .controls button { line-height: 32px; vertical-align: middle; font-family: Novecento, sans-serif; }
+.example2 .controls button i { position: relative; top: -2px; margin: 5px; padding: 0; font-size: 32px; vertical-align: middle; }*/
